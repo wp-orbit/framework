@@ -1,0 +1,14 @@
+{
+    "name": "zawntech/wp-orbit",
+    "description": "A WordPress plugin framework.",
+    "type": "wordpress-muplugin",
+    "authors": [
+        {
+            "name": "Marty Eason",
+            "email": "dev@zawntech.com",
+            "role": "Developer",
+            "homepage": "http://zawntech.com"
+        }
+    ],
+    "require": {}
+}
