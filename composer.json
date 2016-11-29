@@ -10,5 +10,11 @@
             "homepage": "http://zawntech.com"
         }
     ],
-    "require": {}
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Zawntech\\WordPress\\Orbit\\": "code/"
+        }
+    }
 }
