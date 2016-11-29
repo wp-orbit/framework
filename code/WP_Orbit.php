@@ -1,5 +1,5 @@
 <?php
-namespace Zawntech\WordPress\WPOrbit;
+namespace Zawntech\WordPress\Orbit;
 
 /**
  * This is the main plugin wrapper class for WP Orbit.
@@ -7,15 +7,15 @@ namespace Zawntech\WordPress\WPOrbit;
  * Class WPOrbit
  * @package Zawntech\WordPress\WPOrbit
  */
-class WPOrbit
+class WP_Orbit
 {
     /**
-     * @var WPOrbit
+     * @var WP_Orbit
      */
     protected static $instance;
 
     /**
-     * @return WPOrbit
+     * @return WP_Orbit
      */
     public static function getInstance()
     {
@@ -27,7 +27,7 @@ class WPOrbit
 
     /**
      * Alias of getInstance().
-     * @return WPOrbit
+     * @return WP_Orbit
      */
     public static function initialize()
     {

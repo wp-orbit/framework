@@ -19,5 +19,8 @@ if ( ! is_file( __DIR__ . '/vendor/autoload.php' ) ) {
     throw new \Exception('WP Orbit composer assets have not been installed');
 }
 
+// Load vendor autolaod.
+require_once __DIR__ . '/vendor/autoload.php';
+
 // Initialize plugin.
-Zawntech\WordPress\WPOrbit\WPOrbit::initialize();
+Zawntech\WordPress\Orbit\WP_Orbit::initialize();
