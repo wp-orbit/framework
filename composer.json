@@ -11,10 +11,17 @@
         }
     ],
     "require": {
+        "wp-orbit/ajax": "@dev"
     },
     "autoload": {
         "psr-4": {
             "Zawntech\\WordPress\\Orbit\\": "code/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:wp-orbit/ajax.git"
+        }
+    ]
 }
