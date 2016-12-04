@@ -10,18 +10,29 @@
             "homepage": "http://zawntech.com"
         }
     ],
-    "require": {
-        "wp-orbit/ajax": "@dev"
-    },
-    "autoload": {
-        "psr-4": {
-            "Zawntech\\WordPress\\Orbit\\": "code/"
-        }
-    },
+    "require": {},
     "repositories": [
         {
             "type": "git",
             "url": "git@github.com:wp-orbit/ajax.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:wp-orbit/taxonomy.git"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "WPOrbit\\": "code/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WPOrbit\\Ajax\\": "../wp-orbit-components/ajax/code/",
+            "WPOrbit\\Forms\\": "../wp-orbit-components/forms/code/",
+            "WPOrbit\\MetaBoxes\\": "../wp-orbit-components/meta-boxes/code/",
+            "WPOrbit\\Taxonomies\\": "../wp-orbit-components/taxonomies/code/",
+            "WPOrbit\\Tests\\": "../wp-orbit-components/tests/code/"
+        }
+    }
 }
