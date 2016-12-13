@@ -14,7 +14,7 @@
         "wp-orbit/ajax": "@dev",
         "wp-orbit/forms": "@dev",
         "wp-orbit/meta-boxes": "@dev",
-        "wp-orbit/taxonomies": "@dev",
+        "wp-orbit/taxonomy": "@dev",
         "wp-orbit/tests": "@dev",
         "wp-orbit/views": "@dev"
     },
