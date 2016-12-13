@@ -33,7 +33,7 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:wp-orbit/taxonomies.git"
+            "url": "git@github.com:wp-orbit/taxonomy.git"
         },
         {
             "type": "git",
