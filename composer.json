@@ -10,7 +10,14 @@
             "homepage": "http://zawntech.com"
         }
     ],
-    "require": {},
+    "require": {
+        "wp-orbit/ajax": "@dev",
+        "wp-orbit/forms": "@dev",
+        "wp-orbit/meta-boxes": "@dev",
+        "wp-orbit/taxonomies": "@dev",
+        "wp-orbit/tests": "@dev",
+        "wp-orbit/views": "@dev"
+    },
     "repositories": [
         {
             "type": "git",
@@ -18,7 +25,23 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:wp-orbit/taxonomy.git"
+            "url": "git@github.com:wp-orbit/forms.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:wp-orbit/meta-boxes.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:wp-orbit/taxonomies.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:wp-orbit/tests.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:wp-orbit/views.git"
         }
     ],
     "autoload": {
@@ -32,7 +55,8 @@
             "WPOrbit\\Forms\\": "../wp-orbit-components/forms/code/",
             "WPOrbit\\MetaBoxes\\": "../wp-orbit-components/meta-boxes/code/",
             "WPOrbit\\Taxonomies\\": "../wp-orbit-components/taxonomies/code/",
-            "WPOrbit\\Tests\\": "../wp-orbit-components/tests/code/"
+            "WPOrbit\\Tests\\": "../wp-orbit-components/tests/code/",
+            "WPOrbit\\Views\\": "../wp-orbit-components/views/code/"
         }
     }
 }
