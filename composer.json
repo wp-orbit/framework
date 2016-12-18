@@ -1,6 +1,6 @@
 {
-    "name": "zawntech/wp-orbit",
-    "description": "A WordPress plugin framework.",
+    "name": "wp-orbit/framework",
+    "description": "A WordPress development framework.",
     "type": "wordpress-muplugin",
     "authors": [
         {
@@ -14,7 +14,7 @@
         "wp-orbit/ajax": "@dev",
         "wp-orbit/forms": "@dev",
         "wp-orbit/meta-boxes": "@dev",
-        "wp-orbit/taxonomy": "@dev",
+        "wp-orbit/taxonomies": "@dev",
         "wp-orbit/tests": "@dev",
         "wp-orbit/views": "@dev"
     },
