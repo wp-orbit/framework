@@ -33,7 +33,7 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:wp-orbit/taxonomy.git"
+            "url": "git@github.com:wp-orbit/taxonomies.git"
         },
         {
             "type": "git",
@@ -54,6 +54,7 @@
             "WPOrbit\\Ajax\\": "../wp-orbit-components/ajax/code/",
             "WPOrbit\\Forms\\": "../wp-orbit-components/forms/code/",
             "WPOrbit\\MetaBoxes\\": "../wp-orbit-components/meta-boxes/code/",
+            "WPOrbit\\PostTypes\\": "../wp-orbit-components/post-types/code/",
             "WPOrbit\\Taxonomies\\": "../wp-orbit-components/taxonomies/code/",
             "WPOrbit\\Tests\\": "../wp-orbit-components/tests/code/",
             "WPOrbit\\Views\\": "../wp-orbit-components/views/code/"
