@@ -14,6 +14,7 @@
         "wp-orbit/ajax": "@dev",
         "wp-orbit/forms": "@dev",
         "wp-orbit/meta-boxes": "@dev",
+        "wp-orbit/post-types": "@dev",
         "wp-orbit/taxonomies": "@dev",
         "wp-orbit/tests": "@dev",
         "wp-orbit/views": "@dev"
@@ -30,6 +31,10 @@
         {
             "type": "git",
             "url": "git@github.com:wp-orbit/meta-boxes.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:wp-orbit/post-types.git"
         },
         {
             "type": "git",
