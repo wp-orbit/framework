@@ -26,6 +26,10 @@
         },
         {
             "type": "git",
+            "url": "git@github.com:wp-orbit/email.git"
+        },
+        {
+            "type": "git",
             "url": "git@github.com:wp-orbit/forms.git"
         },
         {
@@ -57,6 +61,7 @@
     "autoload-dev": {
         "psr-4": {
             "WPOrbit\\Ajax\\": "../wp-orbit-components/ajax/code/",
+            "WPOrbit\\Email\\": "../wp-orbit-components/email/code/",
             "WPOrbit\\Forms\\": "../wp-orbit-components/forms/code/",
             "WPOrbit\\MetaBoxes\\": "../wp-orbit-components/meta-boxes/code/",
             "WPOrbit\\PostTypes\\": "../wp-orbit-components/post-types/code/",
