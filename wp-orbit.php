@@ -22,5 +22,8 @@ if ( ! is_file( __DIR__ . '/vendor/autoload.php' ) ) {
 // Load vendor autoload.
 require_once __DIR__ . '/vendor/autoload.php';
 
+// Include global functions.
+require_once __DIR__ . '/code/Functions.php';
+
 // Initialize plugin.
 WPOrbit\WPOrbit::initialize();
