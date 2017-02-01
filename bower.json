@@ -15,12 +15,11 @@
     "tests"
   ],
   "dependencies": {
-    "font-awesome": "^4.7.0",
+    "noty": "^2.4.0",
     "knockout": "^3.4.1",
-    "validate": "validate.js#^0.11.1",
+    "knockout-mapping": "^2.4.1",
+    "font-awesome": "^4.7.0",
     "moment": "^2.17.1",
-    "underscore": "^1.8.3",
-    "noty": "^2.3.11",
     "bootstrap-sass": "^3.3.7"
   }
 }

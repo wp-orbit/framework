@@ -71,13 +71,29 @@ class WPOrbit
     protected function enqueueScripts()
     {
         // Hook backend scripts and styles.
-        add_action( 'admin_enqueue_scripts', function() {
+        add_action( 'admin_enqueue_scripts', function()
+        {
+            // Path to assets.
+            $assetsPath = WP_ORBIT_URL . 'assets/';
 
-            // Load WP Orbit css into admin header.
-            wp_register_style( 'wp-orbit-framework', WP_ORBIT_URL . 'assets/css/wp-orbit.css' );
+            // Compiled WP Orbit Plugin CSS.
+            wp_register_style( 'wp-orbit-framework', $assetsPath . '/css/wp-orbit.css' );
 
-            // Enqueue the script.
+            // Register libraries.
+            wp_register_script( 'noty', $assetsPath . 'js/lib/jquery.noty.packaged.min.js', ['jquery'] );
+            wp_register_script( 'knockout', $assetsPath . 'js/lib/knockout.js' );
+            wp_register_script( 'knockout-mapping', $assetsPath . 'js/lib/knockout.mapping.js', ['knockout'] );
+            wp_register_script( 'moment', $assetsPath . 'js/lib/moment-with-locales.min.js' );
+            wp_register_script( 'validate', $assetsPath . 'js/lib/validate.min.js' );
+
+            // Enqueue assets.
             wp_enqueue_style( 'wp-orbit-framework' );
+            wp_enqueue_script( 'noty' );
+            wp_enqueue_script( 'knockout' );
+            wp_enqueue_script( 'knockout-mapping' );
+            wp_enqueue_script( 'moment' );
+            wp_enqueue_script( 'validate' );
+            wp_enqueue_script( 'underscore' );
         });
     }
 }
