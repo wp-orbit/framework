@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-14",
+    "laravel-elixir-vue-2": "^0.2.0",
+    "laravel-elixir-webpack-official": "^1.0.2",
+    "lodash": "^4.16.2"
+  },
+  "dependencies": {
+    "@types/foundation-sites": "^6.1.28",
+    "@types/jquery": "^2.0.39",
+    "@types/knockout": "^3.4.38",
+    "@types/knockout.mapping": "^2.0.28",
+    "@types/underscore": "^1.7.36",
+    "@types/validate.js": "0.0.2"
+  }
+}

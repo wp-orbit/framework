@@ -51,6 +51,9 @@ class WPOrbit
             // Enable testing mode.
             $this->enableTestingMode();
         }
+
+        // Enqueue scripts and styles.
+        $this->enqueueScripts();
     }
 
     /**
@@ -60,6 +63,22 @@ class WPOrbit
     {
         // Load component testing files.
         require_once __DIR__ . '/../../wp-orbit-components/tests/test-dependencies.php';
+    }
+
+    /**
+     * Register/enqueue scripts and styles.
+     */
+    protected function enqueueScripts()
+    {
+        // Hook backend scripts and styles.
+        add_action( 'admin_enqueue_scripts', function() {
+
+            // Load WP Orbit css into admin header.
+            wp_register_style( 'wp-orbit-framework', WP_ORBIT_URL . 'assets/css/wp-orbit.css' );
+
+            // Enqueue the script.
+            wp_enqueue_style( 'wp-orbit-framework' );
+        });
     }
 }
 
