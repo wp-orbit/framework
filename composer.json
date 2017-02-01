@@ -12,6 +12,7 @@
     ],
     "require": {
         "wp-orbit/ajax": "@dev",
+        "wp-orbit/email": "@dev",
         "wp-orbit/forms": "@dev",
         "wp-orbit/meta-boxes": "@dev",
         "wp-orbit/post-types": "@dev",

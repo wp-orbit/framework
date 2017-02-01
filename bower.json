@@ -1,0 +1,26 @@
+{
+  "name": "wp-orbit-framework",
+  "authors": [
+    "Marty Eason <dev@zawntech.com>"
+  ],
+  "description": "WP Orbit plugin dependencies.",
+  "main": "",
+  "license": "GPL-3.0+",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "knockout": "^3.4.1",
+    "validate": "validate.js#^0.11.1",
+    "moment": "^2.17.1",
+    "underscore": "^1.8.3",
+    "noty": "^2.3.11",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
