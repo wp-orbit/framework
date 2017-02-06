@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "../js/",
+    "rootDir": "./",
+    "compileOnSave": true,
+    "module": "none"
+  }
+}

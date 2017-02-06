@@ -8,6 +8,7 @@ elixir( function(mix) {
         // Concatenate site scripts.
         .scripts(
             [
+                './src/js/administration/utility.js'
             ],
 
             // Output destination.

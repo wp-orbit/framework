@@ -7638,4 +7638,8 @@ fieldset[disabled] .wpbs .navbar-inverse .btn-link:focus {
   }
 }
 
+.show-on-load {
+  display: none;
+}
+
 /*# sourceMappingURL=wp-orbit.css.map */

@@ -76,8 +76,9 @@ class WPOrbit
             // Path to assets.
             $assetsPath = WP_ORBIT_URL . 'assets/';
 
-            // Compiled WP Orbit Plugin CSS.
+            // Compiled WP Orbit Plugin CSS and JS.
             wp_register_style( 'wp-orbit-framework', $assetsPath . '/css/wp-orbit.css' );
+            wp_register_script( 'wp-orbit-framework', $assetsPath . '/js/wp-orbit.js' );
 
             // Register libraries.
             wp_register_script( 'noty', $assetsPath . 'js/lib/jquery.noty.packaged.min.js', ['jquery'] );
@@ -88,6 +89,7 @@ class WPOrbit
 
             // Enqueue assets.
             wp_enqueue_style( 'wp-orbit-framework' );
+            wp_enqueue_script( 'wp-orbit-framework' );
             wp_enqueue_script( 'noty' );
             wp_enqueue_script( 'knockout' );
             wp_enqueue_script( 'knockout-mapping' );
