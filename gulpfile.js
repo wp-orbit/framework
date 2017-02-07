@@ -8,7 +8,8 @@ elixir( function(mix) {
         // Concatenate site scripts.
         .scripts(
             [
-                './src/js/administration/utility.js'
+                './src/js/administration/utility.js',
+                './src/js/administration/meta-boxes/posts-pivoter-view-model.js'
             ],
 
             // Output destination.
