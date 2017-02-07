@@ -6,7 +6,7 @@ var WPOrbit_Admin_Utility = (function () {
     WPOrbit_Admin_Utility.prototype.showViews = function () {
         var $ = jQuery, previews = $('.hide-on-load'), hidden = $('.show-on-load');
         previews.hide();
-        hidden.fadeIn(125);
+        hidden.show();
     };
     return WPOrbit_Admin_Utility;
 }());

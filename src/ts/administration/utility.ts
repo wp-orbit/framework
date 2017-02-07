@@ -6,7 +6,7 @@ class WPOrbit_Admin_Utility
             previews = $('.hide-on-load'),
             hidden = $('.show-on-load');
         previews.hide();
-        hidden.fadeIn(125);
+        hidden.show();
     }
 
     constructor() {
