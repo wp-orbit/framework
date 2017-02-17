@@ -15,12 +15,4 @@ jQuery(document).ready(function () {
     new WPOrbit_Admin_Utility();
 });
 
-var PostsPivoterViewModel = (function () {
-    function PostsPivoterViewModel(args) {
-        this.posts = ko.observableArray([]);
-        this.posts(args.pivotablePosts);
-    }
-    return PostsPivoterViewModel;
-}());
-
 //# sourceMappingURL=wp-orbit.js.map

@@ -54,6 +54,9 @@ class WPOrbit
 
         // Enqueue scripts and styles.
         $this->enqueueScripts();
+
+        // Initialize WP Orbit Bootstrapper.
+        new Setup\Bootstrapper;
     }
 
     /**
