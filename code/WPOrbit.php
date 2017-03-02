@@ -89,6 +89,7 @@ class WPOrbit
             wp_register_script( 'knockout-mapping', $assetsPath . 'js/lib/knockout.mapping.js', ['knockout'] );
             wp_register_script( 'moment', $assetsPath . 'js/lib/moment-with-locales.min.js' );
             wp_register_script( 'validate', $assetsPath . 'js/lib/validate.min.js' );
+            wp_register_script( 'bootstrap-datetimepicker', $assetsPath . 'js/lib/bootstrap-datetimepicker.min.js' );
 
             // Enqueue assets.
             wp_enqueue_style( 'wp-orbit-framework' );
@@ -99,6 +100,7 @@ class WPOrbit
             wp_enqueue_script( 'moment' );
             wp_enqueue_script( 'validate' );
             wp_enqueue_script( 'underscore' );
+            wp_enqueue_script( 'bootstrap-datetimepicker' );
         });
     }
 }
